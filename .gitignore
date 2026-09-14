@@ -1,0 +1,16 @@
+# Site packaging and local scratch files
+work/
+outputs/
+.sites-runtime/
+
+# Local tooling and dependency state
+node_modules/
+.vscode/
+.env
+.env.*
+!.env.example
+
+# Generated logs and OS metadata
+*.log
+.DS_Store
+Thumbs.db
